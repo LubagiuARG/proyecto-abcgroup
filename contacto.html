@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="Logo_ABC_Abajo.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <!--titulo de la pagina-->
+            <center><h1>ABC GROUP</h1></center>
+                <ul class="header__menu">
+                        <li><a href="index.html">Inicio</a>
+                        </li>
+
+                        <li> <a href="cursos.html">Cursos</a>
+                            <ul>
+                                <li> <a href="cursos.html#cursos__rcp"> RCP</a></li>
+                                <li> <a href="cursos.html#cursos__rcpydea"> RCP Y DEA </a> </li>
+                                <li> <a href="cursos.html#cursos__primerosSocorros">PRIMEROS SOCORROS</a> </li>
+                                <li> <a href="cursos.html#cursos__prev_inc">PREVENCION DE INCENDIO, CLASES DE FUEGO Y QUEMADURAS</a> </li>
+                            </ul> 
+                        </li> 
+
+                        <li> <a href="quienes_somos.html">Quienes Somos</a>
+                        </li>
+
+                        <li> <a href="galeria.html">Galeria</a> 
+                         </li>
+
+                        <li> <a href="contacto.html">Contacto</a> 
+                        </li>
+                </ul>
+         </nav>
+    </header>
+    <section class="formulario">
+        <form action="" method="post" enctype="text/plain">
+            <label for="apellido"> Apellido: <input type="text" name="apellido"></label>
+            <label for="nombre"> Nombre: <input type="text" name="nombre"></label>
+            <label for="email"> Email: <input type="email" name="email"></label>
+            <label for="sexo"> Sexo: 
+                <select name="sexo"></label>
+                    <option> </option>
+                    <option>masculino</option>
+                    <option>femenino</option>    
+                </select>
+            <label for="informacion"> Desea recibir informacion de nuestros cursos: <input type="checkbox" name="cursos" checked ></label>
+            <label for="comentarios"> Dejanos Tus Comentarios: </label>
+                <textarea name="comentarios" id="" cols="50" rows="10"></textarea>
+                    <input type="reset" value="limpiar formulario">
+                    <input type="submit" value="enviar datos">
+        </form>
+    </section>
+
+<footer> Lucas Alaniz</footer>
+</body>
+</html>

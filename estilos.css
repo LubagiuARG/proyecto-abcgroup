@@ -1,0 +1,216 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@media (max-width: 300px) {
+    #galeria {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+body{
+    background-color: black;
+}
+
+h1{
+    color: rgb(248, 245, 248);
+    font-family: sans-serif;
+}
+
+header{
+    color: white;
+    border: goldenrod;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 0%;
+    margin-bottom: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border: solid 1px;
+
+}
+
+.header__menu{
+    margin: 0px;
+    padding: 0px;
+   background-color: goldenrod;
+    list-style: none;
+    display: flex;
+    align-content: flex-end;
+    border: solid black;
+    }
+
+li {
+    display: inline-block;
+    width: 5rem;
+    height: 3rem;
+    position: relative;
+    font-size: 1rem;
+    border: solid black;
+    text-align: center;
+}
+
+.header__menu ul {
+    position: absolute;
+    display: none;
+}
+
+.header__menu ul li {
+    display: block;
+    
+    }
+
+    ul li:hover ul{
+        display: block;
+        margin: 1px;
+        border: goldenrod solid;
+        padding: 1px;
+        background-color: gray;
+        
+    }
+
+.formulario{
+    color: goldenrod;
+    margin: 5px;
+    padding: 550px;
+    border: goldenrod 5px;
+    border-style: double;
+    display: block;
+    }
+
+    footer{
+        color: goldenrod;
+        margin: 1rem;
+        padding: 1rem;
+    }
+
+    .cursos__todos{
+        color: white;
+    }
+
+    h2{
+        font-family: sans-serif;
+        color: goldenrod;
+     }
+
+     .galeria {
+         display: grid;
+         grid-template-rows: 10% 85% 5% ;
+         grid-template-columns: 5% 90% 5%;
+         
+     }
+     
+    #galeria {
+        display: grid;
+    grid-template-areas:
+    "header header header"
+    "publicidad publicidad publicidad"
+    "footer footer footer";
+    grid-template-rows: 10% 85% 5%;
+    grid-template-columns: 10% 80% 10%;
+    
+    
+    }
+    .border {
+        border: 1px solid goldenrod;
+        }
+        header {
+        grid-area: header;
+        }
+        footer {
+        grid-area: footer;
+        }
+        aside {
+        grid-area: publicidad;
+        }
+            .galeria__imagenes {
+                display: grid;
+                grid-template-rows: "galeria__titulo galeria__titulo";
+                grid-template-columns: "galeria__imagenes__presentacion galeria__imagenes__presentacion" ;
+                margin: 1%;
+                padding: 10rem;
+                align-items: center;
+                font-size: xx-large;
+                font-style: italic;
+                justify-content: center;
+            }
+        
+        .pie_de_pagina {
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }    
+    .logo {
+        width: 50px;
+        height: 50px;
+        margin: 1px;
+        padding: 1px;
+    }
+    .logo_instagram {
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        margin: 1px;
+        padding: 1px;
+
+    }
+
+    .presentacion {
+        color: goldenrod;
+        margin: 10px;
+        padding: 10px;
+    }
+
+    #inicio {
+        display: grid;
+    grid-template-areas:
+    "header header header"
+    "publicidad publicidad publicidad"
+    "footer footer footer";
+    grid-template-rows: 10% 85% 5%;
+    grid-template-columns: 10% 80% 10%;
+ }
+ .border_index {
+    border: 1px solid goldenrod;
+    }
+    header {
+    grid-area: header;
+    }
+    footer {
+    grid-area: footer;
+    }
+    aside {
+    grid-area: publicidad;
+    }
+    nav {
+        grid-area: nav;
+    }
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo__cabecera {
+    border-radius: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+.border_footer {
+    border: 1px solid goldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 1rem;
+    padding: 1rem;
+    height: 50%;
+    width: auto;
+    }
+ 
+
+.pie_de_pagina_index {
+      margin: 0%;
+    padding: 0%;
+ }
