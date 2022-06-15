@@ -1,3 +1,65 @@
-.fondo__index {
+body {
+    display: grid;
     background-image: linear-gradient(to left, black, orange, red);
+    margin: 2px;
+    padding: 2px;
+}
+
+h1 {
+    color: black;
+    font-family: cursive;
+     }
+
+
+.galeria {
+    display: grid;
+    grid-template-rows: 35% 30% 35% ;
+    grid-template-columns: 50% 50%;
+    margin: 10px; 
+    padding: 10px;
+    border-radius: 2px;
+    border: solid white;
+
+}
+
+.imagenes1 {
+    margin: 50px;
+    padding-top: 10px;
+    border: 5px black;
+    transform: rotate(-20deg);
+}
+.imagenes2 {
+    margin: 50px;
+    padding-top: 10px;
+    border: 5px black;
+    transform: rotate(20deg);
+}
+
+@keyframes un_efecto {
+    0% {width: 100px};
+    0.2s {width: 50px};
+    25% {width: 300px};
+    50% {width: 200px};
+    75% {width: 300px};
+    100% {width: 100px};
+     } 
+
+    .imagenes3 {
+    width: 450px;
+    height: 450px;
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 10s;
+} 
+
+.imagenes4 {
+    width: 450px;
+    height: 450px;
+    animation-name: un_efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+    animation-delay: 10s;
 }
