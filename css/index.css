@@ -35,19 +35,18 @@ h1 {
     transform: rotate(20deg);
 }
 
-@keyframes un_efecto {
-    0% {width: 100px};
-    0.2s {width: 50px};
-    25% {width: 300px};
-    50% {width: 200px};
-    75% {width: 300px};
-    100% {width: 100px};
-     } 
+@keyframes efecto { 
+    0% {width: 100px;};
+    25% {width: 300px;};
+    50% {width: 200px;};
+    75% {width: 300px;};
+    100% {width: 100px;};
+}
 
     .imagenes3 {
     width: 450px;
     height: 450px;
-    animation-name: un_efecto;
+    animation-name: efecto;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-duration: 2s;
@@ -57,7 +56,7 @@ h1 {
 .imagenes4 {
     width: 450px;
     height: 450px;
-    animation-name: un_efecto;
+    animation-name: efecto;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in;
     animation-duration: 2s;
